@@ -13,13 +13,5 @@
 	    this.goto('p')
 	}
     }
-	
-    $("body").keydown(function(event){
-	    // todo smart handling of space, keyCode 32
-	    if (event.keyCode == 39) { 
-		xkcd.next()
-	    } else if (event.keyCode == 37) {
-		xkcd.prev()
-	    }
-	})
+    window.currentPageEngine = xkcd
 })(jQuery)

@@ -5,7 +5,11 @@
   "content_scripts": [
     {
       "matches": ["http://xkcd.com/*"],
-      "js": ["jquery-1.4.2.min.js", "xkcd.js"]
+      "js": ["jquery-1.4.2.min.js", "xkcd.js", "common.js"]
+    },
+    {
+      "matches": ["http://questionablecontent.net/*"],
+      "js": ["jquery-1.4.2.min.js", "questionable.js", "common.js"]
     }
   ]
 }

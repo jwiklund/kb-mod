@@ -1,5 +1,6 @@
 Installation:
  Goto chrome://extensions/ and load unpacked extensions
 
-Implemented pages:
- * http://xkcd.com/* (<- & ->)
+Implemented pages (<- & ->):
+ * http://xkcd.com/*
+ * http://questionablecontent.net/*
