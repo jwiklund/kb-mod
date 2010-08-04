@@ -1,0 +1,5 @@
+Installation:
+ Goto chrome://extensions/ and load unpacked extensions
+
+Implemented pages:
+ * http://xkcd.com/* (<- & ->)

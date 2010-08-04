@@ -1,0 +1,11 @@
+{
+  "name": "Easy Browse",
+  "version": "1.0",
+  "description": "Easily browse known sites.",
+  "content_scripts": [
+    {
+      "matches": ["http://xkcd.com/*"],
+      "js": ["jquery-1.4.2.min.js", "xkcd.js"]
+    }
+  ]
+}
