@@ -1,5 +1,5 @@
-(function($) {
-    var xkcd = {
+var currentPageEngine = (function($) {
+    return {
 	goto: function(key) {
 	    var found = $('a[accesskey="' + key + '"]').attr('href')
 	    if (found) {
@@ -13,5 +13,4 @@
 	    this.goto('p')
 	}
     }
-    window.currentPageEngine = xkcd
 })(jQuery)

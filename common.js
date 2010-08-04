@@ -7,4 +7,4 @@
 		page.prev()
 	    }
 	})
-})(jQuery, window.currentPageEngine)
+})(jQuery, currentPageEngine)

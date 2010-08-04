@@ -1,5 +1,5 @@
-(function($) {
-    var q = {
+var currentPageEngine = (function($) {
+    return {
 	goto: function(key) {
 	    var found = $('#comicnav a').filter(function() {
 		    return $(this).text() == key
@@ -15,5 +15,4 @@
 	    this.goto('Previous')
 	}
     }
-    window.currentPageEngine = q
 })(jQuery)
