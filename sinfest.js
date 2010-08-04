@@ -1,13 +1,13 @@
 var currentPageEngine = (function($) {
     function goto(key) {
-	return $('a[accesskey="' + key + '"]').attr('href')
+	return $('img[alt="' + key + '"]').parent().attr('href')
     }
     return {
 	next: function() {
-	    return goto('n')
+	    return goto('Next')
 	},
 	prev: function() {
-	    return goto('p')
+	    return goto('Previous')
 	}
     }
 })(jQuery)

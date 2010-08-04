@@ -1,18 +1,16 @@
 var currentPageEngine = (function($) {
+    function goto(key) {
+	return $('#comicnav a').filter(function() {
+		return $(this).text() == key 
+	       }).attr('href')
+
+    }
     return {
-	goto: function(key) {
-	    var found = $('#comicnav a').filter(function() {
-		    return $(this).text() == key
-	    }).attr('href')
-	    if (found) {
-		window.location = found
-	    }
-	},
 	next: function() {
-	    this.goto('Next')
+	    return goto('Next')
 	},
 	prev: function() {
-	    this.goto('Previous')
+	    return goto('Previous')
 	}
     }
 })(jQuery)
