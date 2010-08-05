@@ -1,0 +1,10 @@
+<html>
+  <script>
+    chrome.extension.onRequest.addListener(
+      function(request, sender, sendResponse) {
+        var notification = webkitNotifications.createNotification('icons/info.png', request.title, request.message)
+        notification.show();
+      }
+    )
+  </script>
+</script>

@@ -2,27 +2,28 @@
   "name": "Keyboard Shortcut Modification",
   "version": "1.0",
   "description": "Add convenient Keyboard shortcuts to some sites",
+  "background_page": "bg-notify.html",
+  "permissions": [ "notifications" ],
   "content_scripts": [
     {
       "matches": ["http://xkcd.com/*"],
-      "js": ["jquery-1.4.2.min.js", "xkcd.js", "common.js"]
+      "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/xkcd.js", "lib/common.js"]
     },
     {
       "matches": ["http://questionablecontent.net/*"],
-      "js": ["jquery-1.4.2.min.js", "questionable.js", "common.js"]
+      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/questionable.js", "lib/common.js"]
     },
     {
       "matches": ["http://stripteasecomic.com/*"],
-      "js": ["jquery-1.4.2.min.js", "stripteasecomic.js", "common.js"]
+      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/stripteasecomic.js", "lib/common.js"]
     },
     {
       "matches": ["http://wapsisquare.com/*"],
-      "js": ["jquery-1.4.2.min.js", "wapsisquare.js", "common.js"]
+      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/wapsisquare.js", "lib/common.js"]
     },
     {
       "matches": ["http://www.sinfest.net/*"],
-      "js": ["jquery-1.4.2.min.js", "sinfest.js", "common.js"]
+      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/sinfest.js", "lib/common.js"]
     }
-
   ]
 }
