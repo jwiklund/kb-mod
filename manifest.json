@@ -11,19 +11,19 @@
     },
     {
       "matches": ["http://questionablecontent.net/*"],
-      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/questionable.js", "lib/common.js"]
+      "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/questionable.js", "lib/common.js"]
     },
     {
       "matches": ["http://stripteasecomic.com/*"],
-      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/stripteasecomic.js", "lib/common.js"]
+      "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/stripteasecomic.js", "lib/common.js"]
     },
     {
       "matches": ["http://wapsisquare.com/*"],
-      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/wapsisquare.js", "lib/common.js"]
+      "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/wapsisquare.js", "lib/common.js"]
     },
     {
       "matches": ["http://www.sinfest.net/*"],
-      "js": ["jquery-1.4.2.min.js", "lib/lib.js", "pages/sinfest.js", "lib/common.js"]
+      "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/sinfest.js", "lib/common.js"]
     }
   ]
 }
