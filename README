@@ -2,6 +2,8 @@ Installation:
  Goto chrome://extensions/ and load unpacked extensions
 
 Implemented Pages (<- & ->):
- * http://xkcd.com/*
- * http://questionablecontent.net/*
- * http://www.sinfest.net/*
+ - http://xkcd.com/*
+ - http://questionablecontent.net/*
+ - http://www.sinfest.net/*
+ - http://stripteasecomic.com/*
+ - http://wapsisquare.com/*
