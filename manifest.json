@@ -2,7 +2,7 @@
   "name": "Keyboard Shortcut Modification",
   "version": "1.0",
   "description": "Add convenient Keyboard shortcuts to some sites",
-  "background_page": "bg-notify.html",
+  "background_page": "lib/bg-notify.html",
   "permissions": [ "notifications" ],
   "content_scripts": [
     {
