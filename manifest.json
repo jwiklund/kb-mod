@@ -1,7 +1,7 @@
 {
-  "name": "Easy Browse",
+  "name": "Keyboard Shortcut Modification",
   "version": "1.0",
-  "description": "Easily browse known sites.",
+  "description": "Add convenient Keyboard shortcuts to some sites",
   "content_scripts": [
     {
       "matches": ["http://xkcd.com/*"],
