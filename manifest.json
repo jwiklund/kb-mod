@@ -12,6 +12,10 @@
       "js": ["jquery-1.4.2.min.js", "questionable.js", "common.js"]
     },
     {
+      "matches": ["http://stripteasecomic.com/*"],
+      "js": ["jquery-1.4.2.min.js", "stripteasecomic.js", "common.js"]
+    },
+    {
       "matches": ["http://www.sinfest.net/*"],
       "js": ["jquery-1.4.2.min.js", "sinfest.js", "common.js"]
     }
