@@ -28,6 +28,11 @@
       {
 	  "matches": ["http://www.penny-arcade.com/*"],
 	  "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/penny-arcade.js", "lib/common.js"]
+      },
+      {
+	  "matches": ["http://imgur.com/gallery/*"],
+	  "js": ["lib/jquery-1.4.2.min.js", "lib/lib.js", "pages/imgur.js", "lib/common.js"],
+	  "run_at": "document_start"
       }
   ]
 }
